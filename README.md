@@ -1,5 +1,11 @@
 # candidate
 Interview Monitor
+
+you need: watchdog, psutil, pyperclip, pinput
+to run vscode version, run via venv
+source venv/bin/activate
+python main.py
+
 A macOS application designed to detect overlay usage and unauthorized screen modifications during interviews and examinations to prevent cheating.
 Overview
 Interview Monitor is a third-party security application that monitors screen overlays and unauthorized applications during online interviews or examinations. The application runs as a background service to detect potential cheating attempts through screen overlays, unauthorized window manipulations, and suspicious application behavior.
